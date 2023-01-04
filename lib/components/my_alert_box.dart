@@ -27,25 +27,25 @@ class MyAlertBox extends StatelessWidget {
           enabledBorder: const OutlineInputBorder(
               borderSide: BorderSide(color: Colors.white)),
           focusedBorder: const OutlineInputBorder(
-              borderSide: BorderSide(color: Colors.white)),
+              borderSide: BorderSide(color: Colors.green)),
         ),
       ),
       actions: [
         MaterialButton(
-          onPressed: onSave,
+          onPressed: onCancel,
           child: Text(
-            "Save",
+            "Cancelar",
             style: TextStyle(color: Colors.white),
           ),
           color: Colors.black,
         ),
         MaterialButton(
-          onPressed: onCancel,
+          onPressed: onSave,
           child: Text(
-            "Cancel",
+            "Guardar",
             style: TextStyle(color: Colors.white),
           ),
-          color: Colors.black,
+          color: Colors.green,
         ),
       ],
     );

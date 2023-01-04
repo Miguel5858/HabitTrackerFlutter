@@ -11,8 +11,8 @@ class HabitDatabase {
   // create initial default data
   void createDefaultData() {
     todaysHabitList = [
-      ["Run", false],
-      ["Read", false],
+      ["Salir a Trotar", false],
+      ["Por: Miguel Intriago", false],
     ];
 
     _myBox.put("START_DATE", todaysDateFormatted());
