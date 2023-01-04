@@ -12,6 +12,7 @@ class HabitDatabase {
   void createDefaultData() {
     todaysHabitList = [
       ["Salir a Trotar", false],
+      ["Hoy Fútbol Sintética", false],
       ["Por: Miguel Intriago", false],
     ];
 

@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
       builder: (context) {
         return MyAlertBox(
           controller: _newHabitNameController,
-          hintText: 'Enter habit name..',
+          hintText: 'Ingresa una tarea..',
           onSave: saveNewHabit,
           onCancel: cancelDialogBox,
         );
